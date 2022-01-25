@@ -6,7 +6,7 @@ root_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/.."
 platform=`uname -a | awk '{print tolower($1)}'`
 arch=`uname -m`
 version="0.20.4"
-url="https://github.com/bitpay/bitcoin/releases/download"
+url="https://github.com/qtumproject/qtum/releases/download"
 tag="mainnet-fastlane-v0.20.4"
 
 if [ "${platform}" == "linux" ]; then
